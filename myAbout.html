@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="with=device-width, initial-scale=1.0">
+        <title>Trisha's about page</title>
+        <link rel="stylesheet" href="mystyle.css">
+
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+    <body>
+       
+
+       <section class="sub-header">
+          <nav>
+              <a href="myindex.html" ><img src="myimage/logo.png" alt="logo chilo"></a>
+              <div class="nav-links" id="navLinks">
+                <i class="fa fa-close" onclick="hideManue()"></i>
+                  <ul>
+                      <!-- <il>as</il>
+                      <il>as</il> -->
+                      <li><a href="">HOME</a></li>
+                      <li><a href="">ABOUT</a></li>
+                      <li><a href="">COURSE</a></li>
+                      <li><a href="">BLOG</a></li>
+                      <li><a href="">CONTACT</a></li>
+                  </ul>
+              </div>
+              <i class="fa fa-ellipsis-v" onclick="showManue()"></i>
+          </nav>
+
+          <h2>About Us</h2>
+
+         
+       </section>
+ <!-- -------about us content----------- -->
+       <section class="about-us">
+
+        <div class="row">
+            <div class="about-col">
+                <h2>We are the World's Largest University</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corrupti, culpa labore perferendis quidem autem deleniti illo voluptatibus nam quia iste?</p>
+                <a href="" class="hero-btn red-btn">EXPLORE NOW</a>
+            </div>
+            <div class="about-col">
+                <img src="myimage/about.jpg" alt="">
+            </div>
+        </div>
+       </section>
+
+
+  
+
+
+
+
+
+<!-- -------footer------- -->
+<section class="footer">
+    <h1>About Us</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure possimus, voluptatum tempore porro alias labore quidem corporis eveniet commodi ab cupiditate beatae neque vel inventore delectus reiciendis deleniti <br>repudiandae numquam eligendi quisquam. Quibusdam nesciunt error perferendis omnis placeat fugit in harum velit, ab hic porro debitis veritatis alias! Enim, delectus.</p>
+
+    <div class="icon">
+        <i class="fa fa-facebook"></i>
+        <i class="fa fa-whatsapp"></i>
+        <i class="fa fa-twitter"></i>
+        <i class="fa fa-linkedin"></i>
+        <i class="fa fa-youtube"></i>
+    </div>
+</section>
+
+
+
+       <!-- Javascript for toggle manu -->
+       <script>
+
+          var navLinks = document.getElementById("navLinks");
+
+          function showManue()
+          {
+              navLinks.style.right="0"
+          }
+          function hideManue(){
+              navLinks.style.right="-200px"
+          }
+
+
+       </script>
+    </body>
+</html>
